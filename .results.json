@@ -2,60 +2,60 @@
   "stats": {
     "suites": 7,
     "tests": 24,
-    "passes": 19,
+    "passes": 24,
     "pending": 0,
-    "failures": 5,
-    "start": "2021-01-11T06:05:25.994Z",
-    "end": "2021-01-11T06:05:26.448Z",
-    "duration": 454
+    "failures": 0,
+    "start": "2021-01-11T06:10:20.653Z",
+    "end": "2021-01-11T06:10:20.923Z",
+    "duration": 270
   },
   "tests": [
     {
       "title": "should render one <h1 />, inside of a <div />",
       "fullTitle": "Actors should render one <h1 />, inside of a <div />",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should render 'Actors Page' inside of the <h1 />",
       "fullTitle": "Actors should render 'Actors Page' inside of the <h1 />",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should render a <div /> for each actor",
       "fullTitle": "Actors should render a <div /> for each actor",
-      "duration": 14,
+      "duration": 12,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should render the right content for each actor with a className of 'actor'",
       "fullTitle": "Actors should render the right content for each actor with a className of 'actor'",
-      "duration": 27,
+      "duration": 22,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains a <NavBar /> component",
       "fullTitle": "App contains a <NavBar /> component",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains a <Route path=\"/\">",
       "fullTitle": "App contains a <Route path=\"/\">",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains a <Route path=\"/actors\">",
       "fullTitle": "App contains a <Route path=\"/actors\">",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -69,7 +69,7 @@
     {
       "title": "contains a <Route path=\"/movies\">",
       "fullTitle": "App contains a <Route path=\"/movies\">",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -90,14 +90,14 @@
     {
       "title": "should render a <div /> for each director",
       "fullTitle": "Directors should render a <div /> for each director",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should render the right content for each director",
       "fullTitle": "Directors should render the right content for each director",
-      "duration": 7,
+      "duration": 6,
       "currentRetry": 0,
       "err": {}
     },
@@ -111,7 +111,7 @@
     {
       "title": "should render 'Home Page' inside of the <h1 />",
       "fullTitle": "Home should render 'Home Page' inside of the <h1 />",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -125,7 +125,7 @@
     {
       "title": "should render 'Movies Page' inside of the <h1 />",
       "fullTitle": "Movies should render 'Movies Page' inside of the <h1 />",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -139,167 +139,95 @@
     {
       "title": "should render the right content for each movie",
       "fullTitle": "Movies should render the right content for each movie",
-      "duration": 4,
+      "duration": 5,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "wraps content in a div with .navbar class",
       "fullTitle": "NavBar wraps content in a div with .navbar class",
-      "duration": 8,
+      "duration": 4,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 0 to equal 1",
-        "showDiff": true,
-        "actual": "0",
-        "expected": "1",
-        "stack": "AssertionError: expected 0 to equal 1\n    at Context.<anonymous> (test/NavBarTest.js:20:47)"
-      }
+      "err": {}
     },
     {
       "title": "renders a Home <NavLink>",
       "fullTitle": "NavBar navlinks renders a Home <NavLink>",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:27:22)",
-        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
-      }
+      "err": {}
     },
     {
       "title": "renders a Movies <NavLink>",
       "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:33:22)",
-        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
-      }
+      "err": {}
     },
     {
       "title": "renders an Actors <NavLink>",
       "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:39:22)",
-        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
-      }
+      "err": {}
     },
     {
       "title": "renders a Directors <NavLink>",
       "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:45:22)",
-        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "wraps content in a div with .navbar class",
-      "fullTitle": "NavBar wraps content in a div with .navbar class",
-      "duration": 8,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 0 to equal 1",
-        "showDiff": true,
-        "actual": "0",
-        "expected": "1",
-        "stack": "AssertionError: expected 0 to equal 1\n    at Context.<anonymous> (test/NavBarTest.js:20:47)"
-      }
-    },
-    {
-      "title": "renders a Home <NavLink>",
-      "fullTitle": "NavBar navlinks renders a Home <NavLink>",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:27:22)",
-        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
-      }
-    },
-    {
-      "title": "renders a Movies <NavLink>",
-      "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:33:22)",
-        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
-      }
-    },
-    {
-      "title": "renders an Actors <NavLink>",
-      "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:39:22)",
-        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
-      }
-    },
-    {
-      "title": "renders a Directors <NavLink>",
-      "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "Error: Method “childAt” is only meant to be run on a single node. 0 found instead.\n    at ShallowWrapper.single (node_modules/enzyme/build/ShallowWrapper.js:1618:17)\n    at ShallowWrapper.childAt (node_modules/enzyme/build/ShallowWrapper.js:1062:21)\n    at Context.<anonymous> (test/NavBarTest.js:45:22)",
-        "message": "Method “childAt” is only meant to be run on a single node. 0 found instead."
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "should render one <h1 />, inside of a <div />",
       "fullTitle": "Actors should render one <h1 />, inside of a <div />",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should render 'Actors Page' inside of the <h1 />",
       "fullTitle": "Actors should render 'Actors Page' inside of the <h1 />",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should render a <div /> for each actor",
       "fullTitle": "Actors should render a <div /> for each actor",
-      "duration": 14,
+      "duration": 12,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should render the right content for each actor with a className of 'actor'",
       "fullTitle": "Actors should render the right content for each actor with a className of 'actor'",
-      "duration": 27,
+      "duration": 22,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains a <NavBar /> component",
       "fullTitle": "App contains a <NavBar /> component",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains a <Route path=\"/\">",
       "fullTitle": "App contains a <Route path=\"/\">",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains a <Route path=\"/actors\">",
       "fullTitle": "App contains a <Route path=\"/actors\">",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -313,7 +241,7 @@
     {
       "title": "contains a <Route path=\"/movies\">",
       "fullTitle": "App contains a <Route path=\"/movies\">",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -334,14 +262,14 @@
     {
       "title": "should render a <div /> for each director",
       "fullTitle": "Directors should render a <div /> for each director",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "should render the right content for each director",
       "fullTitle": "Directors should render the right content for each director",
-      "duration": 7,
+      "duration": 6,
       "currentRetry": 0,
       "err": {}
     },
@@ -355,7 +283,7 @@
     {
       "title": "should render 'Home Page' inside of the <h1 />",
       "fullTitle": "Home should render 'Home Page' inside of the <h1 />",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -369,7 +297,7 @@
     {
       "title": "should render 'Movies Page' inside of the <h1 />",
       "fullTitle": "Movies should render 'Movies Page' inside of the <h1 />",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -383,7 +311,42 @@
     {
       "title": "should render the right content for each movie",
       "fullTitle": "Movies should render the right content for each movie",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "wraps content in a div with .navbar class",
+      "fullTitle": "NavBar wraps content in a div with .navbar class",
       "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Home <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Home <NavLink>",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Movies <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Movies <NavLink>",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders an Actors <NavLink>",
+      "fullTitle": "NavBar navlinks renders an Actors <NavLink>",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders a Directors <NavLink>",
+      "fullTitle": "NavBar navlinks renders a Directors <NavLink>",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
